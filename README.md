@@ -1,4 +1,4 @@
-# 🐸 ANURA: Amphibian Network for Ultra-low-latency Recognition Architecture
+# ANURA: Amphibian Network for Ultra-low-latency Recognition Architecture
 ### End-to-End Signal Processing & Bioacoustic Edge ML Pipeline 
 
 An applied ML engineering showcase demonstrating an end-to-end signal processing and computer vision pipeline for classifying frog/toad (anuran) vocalizations. This architecture transforms raw 1D audio waveforms into 2D Mel-spectrogram images, handles heavy class imbalances via custom batch sampling, trains a convolutional neural network (CNN), and optimizes the final asset via INT8 quantization for ultra-low latency mobile deployment.
@@ -35,7 +35,7 @@ Here are the top 10 frog and toad species native to Southern New Jersey (and the
 Data Curation & Reproducibility: To respect data hosting limits and maintain a lightweight repository footprint, raw audio assets are not tracked via version control. The dataset utilizes (up to) 10 core indicator species of the Southern New Jersey coastal plain and Pine Barrens ecosystem. Complete metadata, including xeno-canto catalog numbers and recording credits, is provided in ```data/dataset_manifest.csv```. Running python ```src/download_data.py``` will automatically fetch and structure the target audio files.
 
 ----------------------------------------------
-## 🏗️ Pipeline Architecture
+## Pipeline Architecture
 
 ```mermaid
 graph TD
